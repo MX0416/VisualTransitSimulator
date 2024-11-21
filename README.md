@@ -7,8 +7,9 @@ Contributors:
 
 ## The Visual Transit Simulator Software
 
-## How to run the project:
+## How to run the project
 ./gradlew appRun (or ./gradlew clean appRun). 
+
 To start the visualization module, open a browser and paste this link http://localhost:7777/project/web_graphics/project.html in its address bar
 
 
@@ -20,6 +21,18 @@ The VTS software is divided into two main modules: the *visualization module* an
 The user of the VTS software interacts with the visualization module using the browser and can specific how long the simulation will run (i.e., how many time units) and how often new vehicles will be added to a route in the simulation. The users also specifies when to start and pause the simulation. The image below depicts the graphical user interface (GUI) of the current version of the VTS software.
 
 ![GUI of the VTS Software](/images/vts_iteration_2.png)
+
+
+
+
+## UML diagrams
+
+Model diagram
+![updated_model_diagram drawio](https://github.com/user-attachments/assets/99852315-4c67-4b3f-8c06-30e1c0c53bde)
+
+Webserver diagram
+![webserver_diagram](https://github.com/user-attachments/assets/69b4df89-1d2f-4ef2-b298-9ab394448515)
+
 
 
 
