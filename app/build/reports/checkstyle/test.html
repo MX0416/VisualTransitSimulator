@@ -1,0 +1,176 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Checkstyle Violations</title>
+        <style type="text/css">
+                    body {
+                        background-color: #fff;
+                        color: #02303A;
+                    }
+
+                    a {
+                        color: #1DA2BD;
+                    }
+                    a.link {
+                        color: #02303A;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    h1 a[name] {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    tr:nth-child(even) {
+                        background: white;
+                    }
+
+                    th {
+                        font-weight:bold;
+                    }
+                    tr {
+                        background: #efefef;
+                    }
+                    table th, td, tr {
+                        font-size:100%;
+                        border: none;
+                        text-align: left;
+                        vertical-align: top;
+                    }
+                </style>
+    </head>
+    <body>
+        <p>
+            <a name="top">
+                <h1>Checkstyle Results</h1>
+            </a>
+        </p>
+        <hr align="left" width="95%" size="1">
+        <h2>Summary</h2>
+        <table class="summary" width="95%">
+            <tr>
+                <th>Total files checked</th><th>Total violations</th><th>Files with violations</th>
+            </tr>
+            <tr>
+                <td>16</td><td>15</td><td>3</td>
+            </tr>
+        </table>
+        <hr align="left" width="95%" size="1">
+        <div class="violations">
+            <h2>Violations</h2>
+            <p>
+                <table class="filelist" width="95%">
+                    <tr>
+                        <th>File</th><th>Total violations</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#N65604">/Users/matthewxue/Desktop/UMN/Y3_S1/CSCI_3081W/project_iteration_2-team20/app/src/test/java/edu/umn/cs/csci3081w/project/model/C02ObserverTest.java</a></td><td>9</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N65675">/Users/matthewxue/Desktop/UMN/Y3_S1/CSCI_3081W/project_iteration_2-team20/app/src/test/java/edu/umn/cs/csci3081w/project/model/BusStrategiesTest.java</a></td><td>4</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N65558">/Users/matthewxue/Desktop/UMN/Y3_S1/CSCI_3081W/project_iteration_2-team20/app/src/test/java/edu/umn/cs/csci3081w/project/model/TrainStrategiesTest.java</a></td><td>2</td>
+                    </tr>
+                </table>
+                <p></p>
+                
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N65675">/Users/matthewxue/Desktop/UMN/Y3_S1/CSCI_3081W/project_iteration_2-team20/app/src/test/java/edu/umn/cs/csci3081w/project/model/BusStrategiesTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Wrong lexicographical order for 'java.time.LocalTime' import. Should be before 'org.junit.jupiter.api.Test'.</td><td>4</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Wrong lexicographical order for 'java.util.List' import. Should be before 'org.junit.jupiter.api.Test'.</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Import statement for 'org.junit.jupiter.api.Assertions.*' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Using the '.*' form of import should be avoided - org.junit.jupiter.api.Assertions.*.</td><td>6</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N65604">/Users/matthewxue/Desktop/UMN/Y3_S1/CSCI_3081W/project_iteration_2-team20/app/src/test/java/edu/umn/cs/csci3081w/project/model/C02ObserverTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Extra separation in import group before 'java.util.ArrayList'</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Wrong lexicographical order for 'java.util.ArrayList' import. Should be before 'org.junit.jupiter.api.Test'.</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Wrong lexicographical order for 'java.util.List' import. Should be before 'org.junit.jupiter.api.Test'.</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Import statement for 'org.junit.jupiter.api.Assertions.assertEquals' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Local variable name 'cO2_1' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'.</td><td>71</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Local variable name 'cO2_2' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'.</td><td>75</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Local variable name 'cO2_3' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'.</td><td>80</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Local variable name 'cO2_4' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'.</td><td>85</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Local variable name 'cO2_5' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'.</td><td>90</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N65558">/Users/matthewxue/Desktop/UMN/Y3_S1/CSCI_3081W/project_iteration_2-team20/app/src/test/java/edu/umn/cs/csci3081w/project/model/TrainStrategiesTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Import statement for 'org.junit.jupiter.api.Assertions.*' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>warning</td><td>Using the '.*' form of import should be avoided - org.junit.jupiter.api.Assertions.*.</td><td>7</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                
+                <p></p>
+            </p>
+        </div>
+        <hr align="left" width="95%" size="1">
+        <p>
+            Generated by <a href="https://gradle.org">Gradle 8.5</a> with <a href="https://checkstyle.sourceforge.io/">Checkstyle 8.33</a>.
+        </p>
+    </body>
+</html>
